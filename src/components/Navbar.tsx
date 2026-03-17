@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
-import orgLogo from "@/assets/org-logo.jpeg";
+import { Menu, X, Leaf } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
@@ -29,8 +28,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4">
-        <a href="#hero">
-          <img src={orgLogo} alt="ORGANIQX" className="h-10 w-auto brightness-0 invert" />
+        <a href="#hero" className="font-heading text-2xl font-extrabold tracking-tight text-foreground relative">
+          Organi<span className="relative">q<Leaf className="absolute -top-2.5 left-1/2 -translate-x-1/2 text-leaf" size={14} strokeWidth={2.5} /></span>x<span className="text-leaf">.</span>
         </a>
 
         {/* Desktop */}
