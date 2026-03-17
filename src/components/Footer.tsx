@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <footer className="border-t border-border py-12 px-6">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-        <a href="#hero" className="font-heading text-xl font-black tracking-wider text-foreground">
-          ORGANI<span className="text-gradient-gold">QX</span>
+        <a href="#hero">
+          <img src={orgLogo} alt="ORGANIQX" className="h-8 w-auto brightness-0 invert" />
         </a>
 
         <nav className="flex flex-wrap justify-center gap-6">

@@ -29,8 +29,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4">
-        <a href="#hero" className="font-heading text-2xl font-black tracking-wider text-foreground">
-          ORGANI<span className="text-gradient-gold">QX</span>
+        <a href="#hero">
+          <img src={orgLogo} alt="ORGANIQX" className="h-10 w-auto brightness-0 invert" />
         </a>
 
         {/* Desktop */}
