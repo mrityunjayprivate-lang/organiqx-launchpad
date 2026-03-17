@@ -10,7 +10,7 @@ const reviews = [
   },
   {
     text: "Perfect snack for my office desk.",
-    author: "Priya M.",
+    author: "Lavanya M.",
     role: "Marketing Professional",
   },
   {
