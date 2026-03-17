@@ -1,4 +1,5 @@
 import { Instagram, Twitter, Facebook } from "lucide-react";
+import orgLogo from "@/assets/org-logo.jpeg";
 
 const footerLinks = [
   { label: "Home", href: "#hero" },
