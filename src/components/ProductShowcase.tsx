@@ -12,7 +12,7 @@ const products = [
     perfectFor: ["Gym goers", "Professionals", "Travelers", "Athletes"],
   },
   {
-    name: "Berry Mix",
+    name: "Berries Fusion",
     image: berryMixImg,
     description:
       "A vibrant blend of antioxidant-rich berries that supports immunity, recovery, and daily vitality.",
